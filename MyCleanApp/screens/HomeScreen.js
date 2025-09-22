@@ -240,7 +240,7 @@ export default function HomeScreen({ route, navigation }) {
                   }}
                 >
                   <Ionicons name="happy-outline" size={20} color="#fff" />
-                  <Text style={styles.optionText}>Uneducational</Text>
+                  <Text style={styles.optionText}>LifeStyle</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity

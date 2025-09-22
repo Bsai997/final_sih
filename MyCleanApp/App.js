@@ -7,8 +7,8 @@ import GetStartedScreen from './screens/GetStartedScreen';
 import LoginScreen from './screens/LoginScreen';
 import HomeScreen from './screens/HomeScreen';
 import RegisterScreen from './screens/RegisterScreen'; 
- import EducationalScreen from './screens/EducationalScreen'; 
-
+import EducationalScreen from './screens/EducationalScreen'; 
+import Lifestyle from './screens/Lifestyle';
 const Stack = createStackNavigator();
 
 export default function App() {
@@ -20,6 +20,7 @@ export default function App() {
         <Stack.Screen name="Register" component={RegisterScreen} /> 
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="EducationalScreen" component={EducationalScreen} />
+        <Stack.Screen name="Lifestyle" component={Lifestyle} />
       </Stack.Navigator>
     </NavigationContainer>
   );

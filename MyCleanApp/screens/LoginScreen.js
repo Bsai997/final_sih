@@ -12,7 +12,7 @@ import axios from "axios";
 import { Ionicons } from "@expo/vector-icons";
 
 // ✅ Use your actual laptop IPv4 address
-const API_URL = "http://192.168.1.11:5000/api/auth";
+const API_URL = "http://192.168.1.10:5000/api/auth";
 
 export default function LoginScreen({ navigation }) {
   const [email, setEmail] = useState("");
