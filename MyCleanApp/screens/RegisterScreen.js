@@ -12,7 +12,7 @@ import axios from "axios";
 import { Ionicons } from "@expo/vector-icons";
 import { Pressable } from "react-native";
 
-const API_URL = "http://192.168.1.11:5000/api/auth";
+const API_URL = "http://10.96.170.88:5000/api/auth";
 
 export default function RegisterScreen({ navigation }) {
   const [name, setName] = useState("");
