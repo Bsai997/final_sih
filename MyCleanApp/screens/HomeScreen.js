@@ -40,14 +40,14 @@ export default function HomeScreen({ route, navigation }) {
     if (menuOpen) {
       Animated.timing(slideAnim, {
         toValue: -250,
-        duration: 300,
-        useNativeDriver: false,
+        duration: 500,
+        useNativeDriver: true,
       }).start(() => setMenuOpen(false));
     } else {
       setMenuOpen(true);
       Animated.timing(slideAnim, {
         toValue: 0,
-        duration: 300,
+        duration: 500,
         useNativeDriver: false,
       }).start();
     }
